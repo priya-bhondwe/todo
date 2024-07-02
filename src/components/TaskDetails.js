@@ -9,8 +9,8 @@ const TaskDetails = () => {
 
   const details = items.find((val) => val.id.toString() === id);
 
-  if(!details){
-    return <PageNotFound />
+  if (!details) {
+    return <PageNotFound />;
   }
 
   return (
@@ -72,7 +72,10 @@ const TaskDetails = () => {
                       className="text-left text-base bg-purple-600 border-purple-300 border-2 flex items-center gap-1 font-medium rounded-2xl px-3 py-1 max-sm:text-xs max-sm:py-0"
                       key={index}
                     >
-                       <span className=" text-xl max-sm:text-lg">{val.emoji}</span> {val.catagory}
+                      <span className=" text-xl max-sm:text-lg">
+                        {val.emoji}
+                      </span>{" "}
+                      {val.catagory}
                     </p>
                   ))}
                 </div>

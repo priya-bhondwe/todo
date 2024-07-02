@@ -27,7 +27,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full relative min-h-screen pb-60 bg-gradient-to-r from-purple-700 to-purple-500">
+    <div className="w-full relative min-h-screen pb-60 bg-gradient-to-r from-black to-red-700">
       <div className="max-w-[1300px] px-3 m-auto">
         <div>
           {/* Display a greeting message */}

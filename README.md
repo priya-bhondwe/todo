@@ -46,8 +46,6 @@ The "React Todo List with Local Storage" project is a web-based task management 
 * Search functionality allows you to filter tasks by name or description, making it easy to find what you need.
 
 
-
-
 By creating the "React Todo App with Local Storage" project using React and integrating local storage for data persistence, you are offering a valuable task management solution that combines usability with data resilience. This open-source approach encourages collaboration and continuous improvement, making it an ideal choice for developers seeking a reliable and customizable task management application that can be deployed locally and maintain task data across sessions.
 
 
@@ -55,12 +53,10 @@ To start using the React Todo App locally, follow these steps:
 
 Clone the Repository:
 
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/priya-bhondwe/todo.git
 cd react-todo-app
 Install Dependencies:
 Make sure you have Node.js and npm installed. Then run:
-
-
 
 npm install
 Start the Development Server:
